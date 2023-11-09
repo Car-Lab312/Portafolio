@@ -2,6 +2,10 @@
     background-color: blue;
     text-align: center;
     color: white;
+    position: fixed;
+    position: -webkit-sticky;
+    padding: 20px;
+    border: 5px;
 }
 
 
@@ -9,21 +13,28 @@
     background-color: chocolate;
     text-align: center;
     color: white;
+    padding-inline-start: 0px;
 }
 
 .barra-medio > div{
     display: grid;
-    grid-template-rows: 200px 200px 200px;
-    gap: 10px;
+    grid-template-rows: 20px 20px 20px;
+    gap: 20px;
     padding: 20px;
     background-color: cadetblue;
     text-align: center;
     color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
-.barra-abajo{
-    background-color: cadetblue;
-    text-align: center;
+div.barra-abajo{
+    background-color: blue;
+    position: sticky;
+    position: -webkit-sticky;
+    border-color: black;
+    /* border: 5px; */
+    padding: 60px;
     color: white;
-    padding-top: 20px;
+
 }
