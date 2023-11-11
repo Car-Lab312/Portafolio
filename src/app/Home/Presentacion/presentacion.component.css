@@ -1,40 +1,21 @@
-.barra-arriba{
-    background-color: blue;
-    text-align: center;
-    color: white;
-    position: fixed;
-    position: -webkit-sticky;
-    padding: 20px;
-    border: 5px;
-}
-
-
-.barra-contenido{
-    background-color: chocolate;
-    text-align: center;
-    color: white;
-    padding-inline-start: 0px;
-}
-
-.barra-medio > div{
+.barra-medio > div {
     display: grid;
-    grid-template-rows: 20px 20px 20px;
-    gap: 20px;
-    padding: 20px;
-    background-color: cadetblue;
+    grid-template-columns: 20px 20px;
+    /* background-color: cadetblue; */
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
-div.barra-abajo{
-    background-color: blue;
+.hr{
     position: sticky;
-    position: -webkit-sticky;
-    border-color: black;
-    /* border: 5px; */
-    padding: 60px;
-    color: white;
+}
 
+.iconos_presentacion{
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto;
+    padding: 0px;
+    /* background-color: black; */
+    justify-content: space-evenly;
 }
