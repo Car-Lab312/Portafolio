@@ -1,0 +1,25 @@
+.estudios_medios{
+    margin-top: 80px;
+}
+
+.estudios {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    padding: 0px;
+    margin-top: 20px;
+    gap: 100px;
+    margin-bottom: 30px;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
+
+.centificados {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    padding: 0px;
+    margin-top: 20px;
+    gap: 100px;
+    margin-bottom: 100px;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
