@@ -1,0 +1,21 @@
+.barra-medio > div {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+
+.hr{
+    position: sticky;
+}
+
+.iconos_presentacion{
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto;
+    padding: 0px;
+    padding-top: 20px;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
