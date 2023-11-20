@@ -1,5 +1,5 @@
 .barra-arriba{
-    background-color: blue;
+    background-color: black;
     text-align: center;
     color: white;
     position: fixed;
@@ -10,7 +10,7 @@
 
 .presentacion{
     display: grid;
-    grid-template-columns: 280px 130px;
+    grid-template-columns: 7rem;
     padding-left: 0px;
     /* margin-bottom: 200px; */
     
@@ -18,18 +18,69 @@
 
 .home{
     display: grid;
-    grid-template-columns: auto 130px;
+    grid-template-columns: 100rem auto;
     padding-left: 0px;
+    /* position: relative; */
+    /* margin-bottom: 200px; */
+    
+}
+
+.home_1{
+    display: grid;
+    grid-template-columns: 20rem 6rem;
+    padding-left: 0px;
+    /* position: relative; */
+    /* margin-bottom: 200px; */
+    
+}
+
+.contenido_bajo{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
     /* margin-bottom: 200px; */
     
 }
 
 .barra-abajo{
-    background-color: blue;
-    position: sticky;
+    background-color: black;
+    position: absolute;
     position: -webkit-sticky;
     border-color: black;
     padding: 109px;
     color: white;
 
+}
+
+.home_prese{
+    margin-top: 80px;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.esquema_paguina{
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+    
+}
+
+.barra-flecha{
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 17rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    /* border: solid; */
+}
+
+.barra-flecha2{
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 47rem;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    /* border: solid; */
 }

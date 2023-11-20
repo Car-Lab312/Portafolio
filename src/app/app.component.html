@@ -1,20 +1,76 @@
 <div class="shadow lg p-3 mb-5 barra-arriba top-0 start-0 end-0">
     <div class="home">
-        <h1 style="text-align: left;">Carlos Patricio Labrín Cartagena</h1>
-        <Button class="danger bg-danger" routerLink="inicio" >HOME</Button>
-    </div>
-    <div class="presentacion" style="align-items: center;">
-        <div style="align-items: center;">
-            <h6 style="text-align: left; font-size: larger;">Ingeniero Informatico Multimedia</h6>
+        <div>
+            <h1 style="text-align: left;">Carlos Patricio Labrín Cartagena</h1>
+            <div class="home_1">
+                <h6 style="text-align: left; font-size: larger;">Ingeniero Informatico Multimedia</h6>
+                <div>
+                    <Button class="primary bg-primary" routerLink="mostrar-estudios">Ver mas</Button>
+                </div>
+            </div>
         </div>
-        <div style="align-items: center;" >
-            <Button class="secondary bg-secondary" routerLink="mostrar-estudios" >Ver mas</Button>
+        <div>
+            <div class="position-relative top-50 start-50 translate-middle">
+                <Button  type="button" class="danger bg-danger " routerLink="inicio" >
+                    <i class='bx bx-home' style='color:#ffffff; padding-right: 5px; font-size: x-large;' ></i>HOME
+                </Button>
+            </div>
         </div>
     </div>
-</div>
-<div style="padding: 15px;">
 </div>
     <router-outlet></router-outlet>
-<div class="barra-abajo position-absolute botton-0 start-0 end-0">
-    <h1 style="text-align: center;">ESTO ES ABAJO</h1>
+    <div class="home_prese">
+        <h1 style="text-align: center;">Bienvenido a mi Portafolio</h1>
+        <div class="barra-flecha">
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;">
+                    <H1>----------------------</H1><i class="bi bi-arrow-left" style="background-color: #5e1cbd;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="barra-flecha2">
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;">
+                    <H1>--------------------</H1>
+                </div>
+            </div>
+        </div>
+        <div class="esquema_paguina">
+            <div>
+                <div class="position-relative top-50 start-50 translate-middle">
+                    <h3>Estudios</h3>
+                </div>
+            </div>
+            <div>
+                <h3 style="padding: 90px;">Estudios</h3>
+                <h3 style="padding: 90px;"><i class='bx bx-archive' style='color:#3316d6; font-size: 50px;'></i></h3>
+                <h3 style="padding: 90px;">Estudios</h3>
+            </div>
+            <div>
+                <div class="position-relative top-50 start-50 translate-middle">
+                    <h3>Estudios</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="barra-abajo botton-0 start-0 end-0">
+    <div class="contenido_bajo">
+        <div class="border-end" style="border-right: solid; border-color: red;">
+            <p style="font-size: larger;">Redes sociales</p>
+            <div>
+                <i class='bx bxl-facebook-square' style='color:#5e1cbd; font-size: 3rem;'></i>
+                <i class='bx bxl-linkedin-square' style='color:#5e1cbd; font-size: 3rem;'></i>
+                <i class='bx bxl-whatsapp' style='color:olivedrab; font-size: 3rem;'></i>
+            </div>
+        </div>
+        <div>
+            <p style="font-size: larger;">Datos de contactos</p>
+            <div style="align-items: center">
+                <i class='bx bx-phone' style='font-size: 25px;'> +56950136916</i>
+            </div>
+            <div style="align-items: center;">
+                <i class='bx bxl-gmail' style='font-size: 25px;'> carlos.labrin15@gmail.com</i>
+            </div>
+        </div>
+    </div>
 </div>
