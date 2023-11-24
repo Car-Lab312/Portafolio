@@ -5,16 +5,16 @@
     position: fixed;
     padding: 20px;
     border: 5px;
-    box-shadow: 0 1rem 3rem #000000;
+    /* box-shadow: 0 1rem 3rem #000000; */
 }
 
-.presentacion{
+/* .presentacion{
     display: grid;
     grid-template-columns: 7rem;
     padding-left: 0px;
-    /* margin-bottom: 200px; */
+    margin-bottom: 200px;
     
-}
+} */
 
 .home{
     display: grid;
@@ -44,43 +44,9 @@
 
 .barra-abajo{
     background-color: black;
-    position: absolute;
-    position: -webkit-sticky;
+    position: fixed;
+    /* position: -webkit-sticky; */
     border-color: black;
     padding: 109px;
     color: white;
-
-}
-
-.home_prese{
-    margin-top: 80px;
-    padding-bottom: 3rem;
-    text-align: center;
-}
-
-.esquema_paguina{
-    display: grid;
-    grid-template-columns: 400px auto 400px;
-    
-}
-
-.barra-flecha{
-    position: absolute;
-    margin-top: 20rem;
-    margin-left: 17rem;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-    /* border: solid; */
-}
-
-.barra-flecha2{
-    position: absolute;
-    margin-top: 20rem;
-    margin-left: 47rem;
-    margin-right: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-    /* border: solid; */
 }

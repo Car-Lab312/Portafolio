@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './Home/Home.module';
 import { EstudiosComponent } from './Home/Informacion/estudios/estudios.component';
 import { PresentacionComponent } from './Home/Presentacion/presentacion.component';
+// import { MenuComponent } from './Home/Menu-principal/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PresentacionComponent } from './Home/Presentacion/presentacion.componen
     RouterModule.forRoot([
       {path: 'mostrar-estudios', component: EstudiosComponent},
       {path: 'inicio', component: PresentacionComponent},
+      // {path: 'inicio', component: MenuComponent},
     ]),
   ],
   providers: [],

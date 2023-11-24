@@ -6,11 +6,29 @@
   html, body {
     
     background: white;
-    margin: 20px;
     color: #3e4144;
     -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+    
   }
   
+  body{
+    margin-top: 124px;
+    /* margin-bottom: 100px; */
+    overflow-y: scroll;
+    position: relative;
+    border: solid;
+    /* padding-bottom: 10px; */
+  }
+    ::-webkit-scrollbar {
+    /* display: none; */
+  }
+  
+  html{
+    background-image: url(app/Home/img/imagen-fondo.jpg);
+    background-repeat: no-repeat;
+    /* overflow-y: hidden; */
+  }  
   
   dd {
     font-weight: bold;
