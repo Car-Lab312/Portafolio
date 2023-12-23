@@ -1,10 +1,9 @@
-.barra-medio > div {
+.resumen > div {
     display: grid;
     grid-template-columns: 20px 20px;
-    /* background-color: cadetblue; */
+    border-bottom: solid red;
     text-align: center;
     color: black;
-    /* margin-top: 40px; */
 }
 
 .hr{
