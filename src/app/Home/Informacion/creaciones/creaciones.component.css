@@ -1,0 +1,27 @@
+.creaciones{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.proyectos{
+    display: grid;
+    grid-template-columns: 19rem 19rem 19rem 19rem;
+    gap: 18px;
+    /* border-bottom: solid red; */
+    margin-bottom: 20px;
+}
+
+.vistaprevia{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.tituloproyecto{
+    margin-top: 178px;
+    width: 300px;
+    /* border: solid;  */
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+
+}

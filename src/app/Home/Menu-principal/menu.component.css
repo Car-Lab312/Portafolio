@@ -1,37 +1,12 @@
 .home_prese{
     margin-top: 80px;
     padding-bottom: 3rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.esquema_paguina{
-    display: grid;
-    grid-template-columns: 400px auto 400px;
-    
-}
-
-.barra-flecha{
-    position: absolute;
-    margin-top: 20rem;
-    margin-left: 17rem;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-    /* border: solid; */
-}
-
-.barra-flecha2{
-    position: absolute;
-    margin-top: 20rem;
-    margin-left: 47rem;
-    margin-right: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-    /* border: solid; */
-}
-
-.contenidos{
-    background: rgb(255, 0, 0, 0.6);
-    border-radius: 10px;
+.container{
+    top: 100px;
+    right: 0px;
+    position: fixed;
+    width: 250px;
 }
